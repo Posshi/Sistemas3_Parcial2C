@@ -1,5 +1,8 @@
 #include <stdio.h>
+
 int main() {
-printf("Hola mundo\n");
-return 0;
+    int offset = 10;
+    printf("Hola mundo\n");
+    printf("Offset: %d\n", offset);
+    return 0;
 }
